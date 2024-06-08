@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+/* header-section */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    background-color: #161616;
+    display: flex;
+}
+.name-logo{
+    width: 50%;
+    height: 80px;
+    color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-logo h1{
+    margin-right: 200px;
+}
+.about-tag{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-tag a{
+font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+}
+.about-tag a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+.about-tag a{
+    border-bottom:2px solid transparent;
+    transition: 0.2s ease-in;
+}
+/* About-section */
+.About{
+    width: 100%;
+    height: 680px;
+    display: flex;
+}
+.left-sec{
+    width: 100%;
+    height:680px ;
+    background-color: #161616;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.icon{
+    width: 5%;
+    height: 680px;
+    display: flex;
+    text-align: center;
+    padding-top: 250px;
+    font-size: xx-large;
+    padding-left: 10px;
+
+}
+.text{
+    width: 95%;
+    height: 680px;
+    text-align: center;
+    padding:200px;
+
+}
+.icon .fa-brands{
+    color: #bbb;
+}
+.text h2{
+    font-size: 1.5rem;
+}
+.text h1{
+    font-size: 4rem;
+    color: #5DB9EE;
+}
+span{
+    color: #5DB9EE;
+}
+.text p{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+    padding-left: 100px;
+}
+button{
+    border: .1rem solid #5DB9EE;
+    font: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    background-color: #5DB9EE;
+    cursor: pointer;
+    transition: .5s ease;
+}
+button:hover{
+    background: transparent;
+    color: #5DB9EE;
+}
+.icon .fa-brands:hover{
+    cursor: pointer;
+    background: linear-gradient(#fff,#3877ff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.design .circle{
+     aspect-ratio: 1;
+     position: absolute;
+     border-radius: 50%;
+     top: 55%;
+     left: 80%;
+     transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+    background:linear-gradient(90deg,transparent 50%, #262525 50%);
+    width: 30rem;
+}
+.circle:nth-child(2){
+    background-color: white;
+    width: 30rem;
+    background-image: url("mypic1.jpg");
+    background-size: cover;
+    border: .4rem solid white;
+    box-shadow: 
+    0 0 1rem #fff,
+    inset 0 0 1rem #fff,
+    0 0 2rem #3877ff,
+    inset 0 0 2rem #3877ff,
+     0 0 4rem #3877ff,
+     inset 0 0 4rem #3877ff;
+}
+.right-sec{
+    width: 20%;
+    height:680px ;
+    background:linear-gradient(-45deg,#3877ff,#262525 50%);
+}
+/* skills-section */
+.skills{
+    height: 780px;
+    background-color:white;
+    width: 100%;
+    display: flex;
+    background-image: url("skills.jpg");
+    background-size: cover;
+}
+.pic-skill{
+        background-image: url("skills.jpg");
+        background-size: cover;
+}
+/* project-section */
+.projects{
+    height:780px ;
+    width: 100%;
+    background-color:black;
+}
+.txt-container{
+    font-size: 2rem;
+    font-weight: 700;
+    color:white;
+    text-align: center;
+    padding-top: 50px;
+}
+.projects-container{
+    height: 600px;
+    width: 100%;
+}
+.ptxt{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ptxt1{
+    height: 100px;
+    width: 600px;
+    font-size: 60px;
+    color: white;
+}
+/* contact-section */
+.contact{
+    height: 500px;
+    width: 100%;
+    background-color:#262525;
+}
+.contact h1{
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.text-sign span{
+    color: white;
+    font-size: 2rem;
+    padding-left: 370px;
+    display: block;
+    padding-top: 40px;
+}
+.text-sign{
+    display: flex;
+}
+
+
+
